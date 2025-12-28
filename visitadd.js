@@ -2,7 +2,7 @@
 async function doctorSubmit(){
 
 
-    let newapi='http://hmsmanagement31.eu-north-1.elasticbeanstalk.com/visits';
+    let newapi='https://dktwktao5anqi.cloudfront.net/visits';
 
     const today = new Date();
     let day = today.getDate();

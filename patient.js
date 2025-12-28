@@ -1,6 +1,6 @@
 const ele=document.getElementById("root");
 
-let api='http://hmsmanagement31.eu-north-1.elasticbeanstalk.com/patients';
+let api='https://dktwktao5anqi.cloudfront.net/patients';
 
 async function get(){
     let res=await axios.get(api);

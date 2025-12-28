@@ -2,7 +2,7 @@
 async function patientSubmit(){
 
 
-    let newapi='http://hmsmanagement31.eu-north-1.elasticbeanstalk.com/patients';
+    let newapi='https://dktwktao5anqi.cloudfront.net/patients';
 
     let name=document.getElementsByName("name")[0].value;
     let emailAddress=document.getElementsByName("emailAddress")[0].value;
