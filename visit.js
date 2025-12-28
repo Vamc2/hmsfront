@@ -24,17 +24,17 @@ async function get(){
             </div>
             <div class="card-body">
                 <h5 class="card-title">Visit Date:${visitDateStr}</h5>
-                <p class="card-text">diagnosis:${diagnosis} ,</p>
-                <p class="card-text">wtKg:${wtKg} ,</p>
-                <p class="card-text">tempC:${tempC} ,</p>
-                <p class="card-text">bpValue:${bpValue} ,</p>
-                <p class="card-text">paymentType:${paymentType} ,</p>
-                <p class="card-text">pid:${pid} </p>
-                <p class="card-text">did:${did} ,</p>
+                <p class="card-text">Diagnosis:${diagnosis} ,</p>
+                <p class="card-text">Weight in KG:${wtKg} ,</p>
+                <p class="card-text">Temperature in C:${tempC} ,</p>
+                <p class="card-text">Blood Pressure:${bpValue} ,</p>
+                <p class="card-text">Payment Mode:${paymentType} ,</p>
+                <p class="card-text">Patient id:${pid} </p>
+                <p class="card-text">Doctor id:${did} ,</p>
                 <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal" onClick="edit(${visitRef});">
-                    edit doc details
+                    edit visit details
                 </button>
-                <a href="#" class="btn btn-danger" onClick="dele(${visitRef});">delete doc</a>
+                <a href="#" class="btn btn-danger" onClick="dele(${visitRef});">delete visit</a>
             </div>
             </div>
                     
